@@ -1,15 +1,20 @@
 import React from 'react';
 import Search from './inputValue/inputValue';
-import ComponentB from './numComponents/componentB';
+import SingInForm from './form/form';
+import ToDoMin from './todomin/toDoMin';
+import ToDoMax from './todomax/todomax';
 import './App.css';
 
 
 function App() {
   return ( 
     <div>
-      <Search name='Maks'/>
-      <hr></hr>
-      <ComponentB/>
+      <SingInForm/>
+      {/* <h1>Tasks at least</h1> */}
+      {/* <ToDoMin/> */}
+      {/* <br/><br/><br/><br/> */}
+      {/* <ToDoMax/> */}
+      
     </div>
    );
 }

@@ -1,0 +1,60 @@
+.form-box {
+    width: 385px;
+    height: 500px;
+    background-color: rgb(110, 10, 204);
+}
+form {
+    position: relative;
+
+    background-color: rgb(110, 10, 204);
+}
+form div {
+    width: 363px;
+    height: 400px;
+    border-radius: 10px;
+    margin-top: 40px;
+    margin-left: 10px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: absolute;
+}
+
+form div h1 {
+    margin: 20px 0;
+
+}
+
+form div a {
+    margin-top: 20px;
+    font-size: 10px;
+    color: rgba(194, 151, 243);
+    text-decoration: none;
+}
+
+.input-text {
+    border: none;
+    border-radius: 3px;
+    outline: none;
+    background-color: rgba(194, 151, 243, 0.267);
+    height: 50px;
+    margin: 10px;
+    width: 80%;
+}
+
+label {
+    margin-right: 188px;
+    margin-bottom: 10px;
+    font-size: 10px;
+}
+
+.submit-btn {
+    border: none;
+    border-radius: 3px;
+    background-color: rgb(110, 10, 204);
+    width: 80%;
+    height: 50px;
+    color: white;
+    font-size: 16pxpx;
+}

@@ -1,0 +1,35 @@
+.toDoMin-container {
+  margin-left: 40px;
+  margin-top: 40px;
+  background-color:rgb(7, 191, 247);
+  height: max-content;
+  width: 300px;
+  border: 3px solid black;
+}
+
+.toDoMin-input {
+  margin: 10px;
+  height: 20px;
+  border: rgb(7, 191, 247) solid 3px;
+  outline: none;
+}
+
+.toDoMin-btn {
+  height: 23px;
+  background-color: blue;
+  border: none;
+  outline: none;
+}
+
+.ToDoMin-li {
+  padding: 0;
+  
+}
+
+.ToDoMin-li li {
+  background-color: rgb(103, 214, 248);
+  height: 20px;
+  padding: 10px;
+  margin: 10px;
+  list-style: none;
+}
