@@ -1,22 +1,17 @@
-import React from 'react';
-import Search from './inputValue/inputValue';
-import SingInForm from './form/form';
+import React from 'react'
+
 import ToDoMin from './todomin/toDoMin';
-import ToDoMax from './todomax/todomax';
 import './App.css';
 
 
 function App() {
   return ( 
     <div>
-      <SingInForm/>
-      {/* <h1>Tasks at least</h1> */}
-      {/* <ToDoMin/> */}
-      {/* <br/><br/><br/><br/> */}
-      {/* <ToDoMax/> */}
+      <h1>Tasks at least</h1> 
       
-    </div>
+      <ToDoMin/>
+   </div>
    );
 }
-
+//нажаль не зміг передати фунцію кнопці яка створюється разом з інпутом ...
 export default App;
